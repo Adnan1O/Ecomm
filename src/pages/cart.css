@@ -1,0 +1,48 @@
+.title{
+    margin-top: 10px;
+}
+.btn-c{
+        margin: 20px;
+        height: 33px;
+        width: 70px;
+        border-radius: 4px;
+        border: 1px solid #32CD32;
+        background-color: #32CD32;
+        color: white;
+       cursor: pointer;
+}
+.btn-c:hover{
+    background-color: #32CD32;
+    opacity: 80%;
+  
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.subtotal{
+    display: flex;
+    margin-right: 30px;
+    justify-content: flex-end;
+}
+@media (max-width: 440px) {
+
+    
+ 
+
+   .email{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.subtotal{
+    display: flex;
+    margin-right: 0px;
+    justify-content: center;
+    margin-top: 10px;
+}
+}

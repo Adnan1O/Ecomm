@@ -1,0 +1,55 @@
+.footer{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+.pages{
+    display: flex;
+    gap: 20px;
+
+}
+.pages p{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-top: 3px;
+    transition: 0.2s ease;
+    font-weight: bold;
+  
+}
+.pages p:hover{
+    color:#383838
+}
+
+.icons{
+    margin-top: 60px;
+}
+.icons svg{
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.icons svg:hover{
+    color: #32CD32;
+}
+.copy{
+    background-color: #303030;
+    color: white;
+}
+@media (max-width: 400px) {
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+  .pages{
+    margin-top: 10px;
+  }
+  .icons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+   
+}

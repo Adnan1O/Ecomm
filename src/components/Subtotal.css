@@ -1,0 +1,12 @@
+.box{
+    border: 1px solid #cce7d0;
+    padding: 9px;
+    border-radius: 2px;
+}
+.box h6{
+    font-size: 12px;
+}
+@media (max-width: 360px) {
+
+    
+}

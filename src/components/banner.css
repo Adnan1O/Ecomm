@@ -1,0 +1,33 @@
+button{
+    height: 35px;
+    width: 80px;
+    align-self: center;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    border: white;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: grey;
+    color: black;
+    border: black;
+}
+@media (max-width : 440px) {
+    .banner{
+        width: 70% ;
+        height: 70%;
+    }
+}
+.main-btn{
+    border-radius: 4px;
+    background-color: #32CD32;
+    color: azure;
+}
+.main-btn:hover{
+    background-color: #32CD32;
+    opacity: 90%;
+    color: white;
+}

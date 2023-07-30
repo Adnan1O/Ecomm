@@ -1,0 +1,36 @@
+.main-d{
+    width: 200px;
+    height: 230px;
+    border: 1px solid #cce7d0;
+    border-radius: 10px;
+    margin: 15px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03) ;
+    
+}
+.main-d:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06) ;
+}
+/* .cat-f{
+      display: flex;
+  flex-wrap: wrap;
+} */
+.card-d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    padding-top: 30px;
+    gap: 9px;
+  
+   
+}
+.card-d:hover{
+    width: 202px;
+    opacity: 70%;
+}
+.card-d img{
+    width: 75%;
+
+}

@@ -1,0 +1,26 @@
+
+.payment_page{
+    min-height: 400px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 25px;
+    gap: 4px;
+}
+.address h6{
+    margin-left: 12px;
+}
+.add{
+    height: 27px;
+    background-color: #32CD32 ;
+    cursor: pointer;
+    border: 2px solid #32CD32;
+    border-radius: 2px;
+    color: white;
+}
+.stripe-btn{
+    margin: 40px;
+}
