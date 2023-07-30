@@ -23,7 +23,7 @@ const Navbar = () => {
       <ul className='nav-items'>
         <li><Link to="/">home</Link></li>
         <li><Link to="/product/cpu" >products</Link></li>
-        <li><Link to="/about">about</Link></li> 
+        <li className='about'><Link to="/about">about</Link></li> 
         <li><Link to="/catogeries"><Dropdown/></Link></li>
         <li ><Link to="/cart"><CgShoppingBag className='shop'/></Link></li>
         {/* <span className='num'><Link to="/cart">{basket?.length}</Link></span> */}

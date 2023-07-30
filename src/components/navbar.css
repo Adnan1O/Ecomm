@@ -109,8 +109,20 @@ svg{
    
 } */
 @media (max-width: 530px){
-    .nav{
-        font-size: small;
-        background-color: #D2042D;
+    .logo{
+      font-size: 20px;
+      margin-right: 10px;
     }
+    .nav li{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .nav .about{
+        display: none;
+    }
+    .nav svg{
+        font-size: 15px;
+        margin-left: 4px;
+    }
+
 }
