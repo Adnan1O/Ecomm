@@ -6,7 +6,6 @@
 
 <h3>Build with:</h3>
 » React JS<br>
-» node js express js<br>
 » Vanilla css
 
 <h2>Screenshots of the Project 📸</h2>
